@@ -27,3 +27,4 @@ jobs:
           push: true
           tags: |
             camel52zhang/certbot-dns-tencent:latest
+            camel52zhang/certbot-dns-tencent:${{ github.sha }}
